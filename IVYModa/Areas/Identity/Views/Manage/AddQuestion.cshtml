@@ -1,0 +1,42 @@
+﻿@{
+    TempData["Title"] = "Gửi câu hỏi";
+}
+
+<div class="add-question">
+    <div class="order-block_title">
+        <h2>Yêu cầu hỗ trợ của bạn</h2>
+    </div>
+    <div class="wrap-space"></div>
+    <div class="order-block question-form">
+        <h3>Gửi yêu cầu hỗ trợ của bạn</h3>
+        <p>
+            Xin vui lòng cho chúng tôi biết bạn đang gặp khó khăn gì,
+            chúng tôi luôn sẵn sàng trợ giúp bạn
+        </p>
+        <form action="#">
+            <div class="form-group">
+                <select class="form-control" name="contact_category">
+                    <option disabled="" selected="">Danh mục hỗ trợ</option>
+                    <option value="1">Sản phẩm</option>
+                    <option value="2">Mua hàng</option>
+                    <option value="3">Giao hàng</option>
+                    <option value="4">Khác</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input class="form-control"
+                       name="contact_subject"
+                       value=""
+                       placeholder="Chủ đề" />
+            </div>
+            <div class="form-group">
+                <textarea class="form-control"
+                          name="contact_message"
+                          placeholder="Nhập yêu cầu của bạn"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn--large w-100">Gửi yêu cầu</button>
+            </div>
+        </form>
+    </div>
+</div>

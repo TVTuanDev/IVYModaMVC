@@ -1,0 +1,336 @@
+﻿@model List<Location>
+@{
+    TempData["Title"] = "Sổ địa chỉ";
+}
+
+<div class="checkout-address">
+    <div class="order-block_title d-flex align-items-center justify-content-between">
+        <h2>Sổ địa chỉ</h2>
+        <button class="btn btn--large js-fancybox-button">
+            <i class="fa-solid fa-circle-plus me-2"></i><span>Thêm Địa Chỉ</span>
+        </button>
+    </div>
+    <div class="wrap-space"></div>
+    <div class="order-block">
+        <div class="row">
+            @foreach(var item in Model)
+            {
+                <div class="col-md-6 pb-4">
+                    <div class="block-border">
+                        <input value="@item.Id" type="hidden" class="idAddress" />
+                        <h4>@(item.UserName)</h4>
+                        <p class="phone-checkout">
+                            <span>Điện thoại:</span>
+                            <span>@(item.PhoneNumber)</span>
+                        </p>
+                        <p class="address-checkout">
+                            <span>Địa chỉ:</span>
+                            <span>@(item.Address)</span>
+                        </p>
+                        <div class="checkout-actions">
+                            @if(!item.Default)
+                            {
+                                <a href="javascripts:void(0)" data-id="@item.Id">Xóa</a>
+                            }
+                            <button class="btn">
+                                <span>Sửa</span>
+                            </button>
+                            <span data-id="@item.Id" class="btn btn--large @( item.Default ? "" : "btn--outline" )">Mặc định</span>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="modal-info add-address">
+        <div class="modal-bg"></div>
+        <div class="modal-inner">
+            <form class="modal-content" id="create-address">
+                <h3>Thêm địa chỉ</h3>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input type="text"
+                               class="form-control"
+                               name="UserName"
+                               placeholder="Họ tên" />
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <input type="text"
+                               class="form-control"
+                               name="PhoneNumber"
+                               placeholder="Số điện thoại" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <select class="form-control cities" name="CityCode">
+                            <option value="">Chọn Tỉnh/Tp</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <select class="form-control districts" name="DistrictCode">
+                            <option value="">Chọn Quận/Huyện</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <select class="form-control wards" name="WardCode">
+                        <option value="">Chọn Phường/Xã</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text"
+                           class="form-control"
+                           name="Address"
+                           placeholder="Địa chỉ" />
+                </div>
+                <div class="form-group">
+                    <label class="form-checkbox">
+                        <input class="form-checkbox__input" name="Default" value="true"
+                               type="checkbox" /><span class="form-checkbox__label">Đặt làm mặc định</span>
+                    </label>
+                </div>
+                <div class="col-md-12 form-button">
+                    <button class="btn btn--large w-100" id="btn-create_address">Thêm địa chỉ</button>
+                </div>
+                <div class="close-modal">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-info fix-address">
+        <div class="modal-bg"></div>
+        <div class="modal-inner">
+            <form asp-action="UpdateLocation" class="modal-content" id="update-address">
+                <input type="hidden" name="Id" value="" class="idAddress" />
+                <h3>Sửa địa chỉ</h3>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="UserName"
+                               class="form-control user-name"
+                               placeholder="Họ tên" />
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <input type="text" name="PhoneNumber"
+                               class="form-control phone-number"
+                               placeholder="Số điện thoại" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <select class="form-control cities" name="CityCode">
+                            <option value="">Chọn Tỉnh/Tp</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <select class="form-control districts" name="DistrictCode">
+                            <option value="">Chọn Quận/Huyện</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <select class="form-control wards" name="WardCode">
+                        <option value="">Chọn Phường/Xã</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="Address"
+                           class="form-control address-details"
+                           placeholder="Địa chỉ" />
+                </div>
+                <div class="form-group">
+                    <label class="form-checkbox">
+                        <input class="form-checkbox__input" name="Default" value="true"
+                               type="checkbox" /><span class="form-checkbox__label">Đặt làm mặc định</span>
+                    </label>
+                </div>
+                <div class="col-md-12 form-button">
+                    <button class="btn btn--large w-100" id="btn-update_address">Sửa địa chỉ</button>
+                </div>
+                <div class="close-modal">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                showCloseButton: true,
+                timer: 5000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+
+            // Get location
+            $.ajax({
+                type: "GET",
+                url: "@Url.Action("GetLocation", "Account")",
+                success: function (data) {
+                    var location = $.parseJSON(data);
+                    var cities = location.map(item => item);
+                    var citySelect = $(".cities");
+
+                    location.forEach(item => {
+                        var option = $('<option>').val(item.code).text(item.name);
+                        $(".cities").append(option);
+                    });
+
+                    $(".cities").change(function () {
+                        let districts = location.find(item => item.code == $(this).val())?.districts;
+
+                        $(".districts").empty();
+                        let districtOption = $('<option>').val(0).text("Chọn Quận/Huyện");
+                        $(".districts").append(districtOption);
+
+                        $(".wards").empty();
+                        let wardsOption = $('<option>').val(0).text("Chọn Phường/Xã");
+                        $(".wards").append(wardsOption);
+
+                        districts?.forEach(item => {
+                            var option = $('<option>').val(item.code).text(item.name);
+                            $(".districts").append(option);
+                        });
+                    });
+
+                    $(".districts").change(function () {
+                        let valueCity = $(this).closest(".row").find(".cities").val();
+                        let districts = location.find(item => item.code == valueCity)?.districts;
+                        let wards = districts.find(item => item.code == $(this).val())?.wards;
+
+                        $(".wards").empty();
+                        let optionFirst = $('<option>').val(0).text("Chọn Phường/Xã");
+                        $(".wards").append(optionFirst);
+
+                        wards?.forEach(item => {
+                            var option = $('<option>').val(item.code).text(item.name);
+                            $(".wards").append(option);
+                        });
+                    });
+                },
+                error: function () {
+                    console.log("Lỗi")
+                }
+            });
+
+            // Crete location
+            $("#btn-create_address").click(function (e) {
+                e.preventDefault();
+                var formData = $("#create-address").serialize();
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("CreateLocation", "Manage")",
+                    data: formData,
+                    success: function (res) {
+                        if (res.status === "success") {
+                            location.reload();
+                        }
+                    },
+                    error: function (error) {
+                        Toast.fire({
+                            icon: `error`,
+                            text: `Có lỗi xảy ra`
+                        });
+
+                        console.log(error);
+                    }
+                });
+                console.log(formData)
+            });
+
+            // Update location
+            $("#btn-update_address").click(function (e) {
+                e.preventDefault();
+
+                var formData = $("#update-address").serialize();
+
+                $.ajax({
+                    type: "PUT",
+                    url: "@Url.Action("UpdateLocation", "Manage")",
+                    data: formData,
+                    success: function (res) {
+                        if (res.status === "success") {
+                            location.reload();
+                        }
+                    },
+                    error: function (error) {
+                        Toast.fire({
+                            icon: `error`,
+                            text: `Có lỗi xảy ra`
+                        });
+
+                        console.log(error);
+                    }
+                });
+            });
+
+            // Delete location
+            $(".checkout-actions a").click(function (e) {
+                e.preventDefault()
+                var value = parseInt($(this).attr("data-id"));
+
+                var formData = {
+                    id: value
+                };
+
+                $.ajax({
+                    type: "DELETE",
+                    url: "@Url.Action("DeleteLocation", "Manage")",
+                    data: formData,
+                    success: function (res){
+                        if (res.status === "success") {
+                            location.reload();
+                        }
+                    },
+                    error: function (error) {
+                        Toast.fire({
+                            icon: `error`,
+                            text: `Có lỗi xảy ra`
+                        });
+
+                        console.log(error);
+                    }
+                });
+            });
+
+            // Set default location
+            $(".checkout-actions span.btn.btn--outline").click(function () {
+                var value = parseInt($(this).attr("data-id"));
+
+                var formData = {
+                    id: value
+                }
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("SetDefaultLocation", "Manage")",
+                    data: formData,
+                    success: function (res) {
+                        if (res.status === "success") {
+                            location.reload();
+                        }
+                    },
+                    error: function (error) {
+                        Toast.fire({
+                            icon: `error`,
+                            text: `Có lỗi xảy ra`
+                        });
+
+                        console.log(error);
+                    }
+                });
+            });
+        });
+    </script>
+}

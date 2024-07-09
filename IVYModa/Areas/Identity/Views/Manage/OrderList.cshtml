@@ -1,0 +1,58 @@
+﻿@{
+    TempData["Title"] = "Quản lý đơn hàng";
+}
+
+<div class="order-block_title d-flex align-items-center justify-content-between">
+    <h2>Quản lý đơn hàng</h2>
+    <div class="form-group">
+        <label class="text-nowrap">Trạng thái đơn hàng:</label>
+        <select class="form-control rounded w">
+            <option value="" selected="selected">Tất cả</option>
+            <option value="tao_don_hang">Đặt hàng thành công</option>
+            <option value="dang_xu_ly">Đang xử lý</option>
+            <option value="cho_giao_van">Chờ giao vận</option>
+            <option value="dang_van_chuyen">Đã gửi</option>
+            <option value="da_nhan_hang">Đã nhận hàng</option>
+            <option value="da_huy">Đã hủy</option>
+            <option value="da_tra_hang">Trả hàng</option>
+        </select>
+    </div>
+</div>
+<div class="wrap-space"></div>
+<div class="order-block">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã đơn hàng</th>
+                <th>Ngày</th>
+                <th>Trạng thái</th>
+                <th>Sản phẩm</th>
+                <th>Tổng tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-decoration-underline">IVM7627005</td>
+                <td>31/03/2024 21:39:46</td>
+                <td>Đã hủy đơn hàng</td>
+                <td>1x Áo khoác dạ nam dáng dài, Xanh lá đậm</td>
+                <td><b>924,000 ₫</b></td>
+            </tr>
+            <tr>
+                <td class="text-decoration-underline">IVM7627005</td>
+                <td>31/03/2024 21:39:46</td>
+                <td>Đã hủy đơn hàng</td>
+                <td>1x Áo khoác dạ nam dáng dài, Xanh lá đậm</td>
+                <td><b>924,000 ₫</b></td>
+            </tr>
+        </tbody>
+    </table>
+    <ul class="list-inline-pagination">
+        <li class="first-page"><a href="#">Trang đầu</a></li>
+        <li><a href="#">«</a></li>
+        <li id="products_active_ts"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">»</a></li>
+        <li class="last-page"><a href="#">Trang cuối</a></li>
+    </ul>
+</div>

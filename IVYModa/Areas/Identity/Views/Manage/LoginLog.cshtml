@@ -1,0 +1,36 @@
+﻿@model List<LoginLog>
+@{
+    TempData["Title"] = "Lịch sử đăng nhập";
+}
+
+<div class="order-block_title">
+    <h2>Lịch sử đăng nhập</h2>
+</div>
+<div class="wrap-space"></div>
+<div class="order-block">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-center">THIẾT BỊ</th>
+                <th class="text-center">PHẦN MỀM</th>
+                <th class="text-center">Kiểu đăng nhập</th>
+                <th class="text-center">ĐỊA CHỈ</th>
+                <th class="text-center">IP</th>
+                <th class="text-center">THỜI GIAN</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td class="text-center">@item.Device (desktop)</td>
+                    <td class="text-center">Website <b>@item.Software</b></td>
+                    <td class="text-center">@item.LoginStyle</td>
+                    <td class="text-center">@item.Address</td>
+                    <td class="text-center">@item.IP</td>
+                    <td class="text-center">@item.LoginTime</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

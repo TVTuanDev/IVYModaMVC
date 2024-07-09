@@ -1,0 +1,35 @@
+﻿@{
+    string? toast = TempData["Message"]?.ToString();
+    string[]? toastFire = toast?.Split(':');
+    var status = (toastFire == null || toastFire!.Length < 2) 
+                    ? "info" 
+                    : toastFire[0];
+    var message = (toastFire == null || toastFire!.Length < 2) 
+                    ? TempData["Message"]?.ToString() 
+                    : toastFire[1];
+}
+
+@if (!string.IsNullOrEmpty(toast))
+{
+    <script>
+        $(function () {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                showConfirmButton: false,
+                showCloseButton: true,
+                timer: 5000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.onmouseenter = Swal.stopTimer;
+                    toast.onmouseleave = Swal.resumeTimer;
+                }
+            });
+            Toast.fire({
+                icon: "@status.Trim()",
+                // title: "Success",
+                text: "@Html.Raw(message!.Trim())"
+            });
+        })
+    </script>
+}

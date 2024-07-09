@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Tra cứu đơn hàng";
+}
+
+<div class="container">
+    <div class="breadcrumb" style="--bs-breadcrumb-divider: '-'">
+        <ul class="breadcrumb-list">
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" href="./index.html">Trang chủ</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" href="./oder_find.html">Tra cứu đơn hàng</a>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <form class="col-md-4 col-12">
+            <div class="order-block__title justify-content-center pb-3">
+                <h3>Tra cứu đơn hàng</h3>
+            </div>
+            <div class="row form-group align-items-center">
+                <label class="col-5 form-label">Mã đơn <span style="color: red">*</span></label>
+                <div class="col-7">
+                    <input type="text"
+                           class="form-control"
+                           required=""
+                           placeholder="IVM123456" />
+                </div>
+            </div>
+            <div class="row form-group align-items-center">
+                <label class="col-5 form-label">Số điện thoại <span style="color: red">*</span></label>
+                <div class="col-7">
+                    <input type="text"
+                           class="form-control"
+                           required=""
+                           placeholder="02432052222" />
+                </div>
+            </div>
+            <div class="form-group pt-2">
+                <button type="submit"
+                        class="btn btn--large m-auto but-common-black">
+                    Tra cứu
+                </button>
+            </div>
+        </form>
+        <div class="col-md-4"></div>
+    </div>
+</div>

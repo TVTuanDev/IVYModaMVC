@@ -1,0 +1,689 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IVYModa.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IVYModa.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\css\\base.css",
+      "PackagePath": "staticwebassets\\css\\base.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\001.png",
+      "PackagePath": "staticwebassets\\img\\001.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\004.png",
+      "PackagePath": "staticwebassets\\img\\004.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\011.png",
+      "PackagePath": "staticwebassets\\img\\011.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\015.png",
+      "PackagePath": "staticwebassets\\img\\015.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\031.png",
+      "PackagePath": "staticwebassets\\img\\031.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\033.png",
+      "PackagePath": "staticwebassets\\img\\033.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\035.png",
+      "PackagePath": "staticwebassets\\img\\035.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\038.png",
+      "PackagePath": "staticwebassets\\img\\038.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\049.png",
+      "PackagePath": "staticwebassets\\img\\049.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\051.png",
+      "PackagePath": "staticwebassets\\img\\051.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\052.png",
+      "PackagePath": "staticwebassets\\img\\052.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\054.png",
+      "PackagePath": "staticwebassets\\img\\054.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\064.png",
+      "PackagePath": "staticwebassets\\img\\064.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Bộ Áo Thun High Power.jpg",
+      "PackagePath": "staticwebassets\\img\\Bộ Áo Thun High Power.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Bộ Áo Thun High Power_bak.jpg",
+      "PackagePath": "staticwebassets\\img\\Bộ Áo Thun High Power_bak.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak10.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak10.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak2.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak2.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak3.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak3.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak4.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak4.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak5.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak5.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak6.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak6.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak7.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak7.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak8.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak8.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak9.jpg",
+      "PackagePath": "staticwebassets\\img\\Lantana Dress - Đầm Xòe Phối Đai_bak9.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Quần ivy men.jpg",
+      "PackagePath": "staticwebassets\\img\\Quần ivy men.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Quần tây nam kẻ.jpg",
+      "PackagePath": "staticwebassets\\img\\Quần tây nam kẻ.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Quần tây nam vải kẻ.jpg",
+      "PackagePath": "staticwebassets\\img\\Quần tây nam vải kẻ.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Quần Âu kẻ caro.jpg",
+      "PackagePath": "staticwebassets\\img\\Quần Âu kẻ caro.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Set Áo 2 Dây Phối Bèo Xếp Tầng.jpg",
+      "PackagePath": "staticwebassets\\img\\Set Áo 2 Dây Phối Bèo Xếp Tầng.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Set Áo 2 Dây Phối Bèo Xếp Tầng_bak.jpg",
+      "PackagePath": "staticwebassets\\img\\Set Áo 2 Dây Phối Bèo Xếp Tầng_bak.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Zuýp 2 Lớp Phối Đai.jpg",
+      "PackagePath": "staticwebassets\\img\\Zuýp 2 Lớp Phối Đai.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\Zuýp 2 Lớp Phối Đai_bak.jpg",
+      "PackagePath": "staticwebassets\\img\\Zuýp 2 Lớp Phối Đai_bak.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\appstore.png",
+      "PackagePath": "staticwebassets\\img\\appstore.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\arrow-left.svg",
+      "PackagePath": "staticwebassets\\img\\arrow-left.svg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\arrow_down.png",
+      "PackagePath": "staticwebassets\\img\\arrow_down.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\avatar-default.png",
+      "PackagePath": "staticwebassets\\img\\avatar-default.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\avatar-post.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-post.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\avatar-post2.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-post2.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\badget-02.png",
+      "PackagePath": "staticwebassets\\img\\badget-02.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\banner-book.jpg",
+      "PackagePath": "staticwebassets\\img\\banner-book.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\banner1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner1.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner2.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\banner3.jpg",
+      "PackagePath": "staticwebassets\\img\\banner3.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\bg-seller.png",
+      "PackagePath": "staticwebassets\\img\\bg-seller.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\bg_news.png",
+      "PackagePath": "staticwebassets\\img\\bg_news.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\brand1.jpg",
+      "PackagePath": "staticwebassets\\img\\brand1.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\brand2.jpg",
+      "PackagePath": "staticwebassets\\img\\brand2.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\dmca_protected_16_120.png",
+      "PackagePath": "staticwebassets\\img\\dmca_protected_16_120.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\err_404.jpg",
+      "PackagePath": "staticwebassets\\img\\err_404.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery1.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery2.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery3.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery4.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\gallery5.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery5.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\googleplay.png",
+      "PackagePath": "staticwebassets\\img\\googleplay.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\ic_fb.png",
+      "PackagePath": "staticwebassets\\img\\ic_fb.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\ic_gg.png",
+      "PackagePath": "staticwebassets\\img\\ic_gg.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\ic_instagram.png",
+      "PackagePath": "staticwebassets\\img\\ic_instagram.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\ic_pinterest.png",
+      "PackagePath": "staticwebassets\\img\\ic_pinterest.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\ic_ytb.png",
+      "PackagePath": "staticwebassets\\img\\ic_ytb.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\icon-twitter.png",
+      "PackagePath": "staticwebassets\\img\\icon-twitter.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\icon-v.png",
+      "PackagePath": "staticwebassets\\img\\icon-v.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\icon_favicon.png",
+      "PackagePath": "staticwebassets\\img\\icon_favicon.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\image-down.png",
+      "PackagePath": "staticwebassets\\img\\image-down.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\image-up.png",
+      "PackagePath": "staticwebassets\\img\\image-up.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\img-congthuong.png",
+      "PackagePath": "staticwebassets\\img\\img-congthuong.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\lb-img1.jpg",
+      "PackagePath": "staticwebassets\\img\\lb-img1.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\lb-img2.jpg",
+      "PackagePath": "staticwebassets\\img\\lb-img2.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\logo-footer.png",
+      "PackagePath": "staticwebassets\\img\\logo-footer.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\magazine-new.jpg",
+      "PackagePath": "staticwebassets\\img\\magazine-new.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\magazine-story.jpg",
+      "PackagePath": "staticwebassets\\img\\magazine-story.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\payment.png",
+      "PackagePath": "staticwebassets\\img\\payment.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\post-img.jpg",
+      "PackagePath": "staticwebassets\\img\\post-img.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\rating-filled.svg",
+      "PackagePath": "staticwebassets\\img\\rating-filled.svg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\rating.svg",
+      "PackagePath": "staticwebassets\\img\\rating.svg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\support_new2.png",
+      "PackagePath": "staticwebassets\\img\\support_new2.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\support_new3.png",
+      "PackagePath": "staticwebassets\\img\\support_new3.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\support_new4.png",
+      "PackagePath": "staticwebassets\\img\\support_new4.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\support_new5.png",
+      "PackagePath": "staticwebassets\\img\\support_new5.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\trending.jpg",
+      "PackagePath": "staticwebassets\\img\\trending.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\img\\trending_detail.jpg",
+      "PackagePath": "staticwebassets\\img\\trending_detail.jpg"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\js\\jquery-3.7.1.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\README.md",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\README.md"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "E:\\.NetMVC\\ECommerce\\IVYModa\\IVYModa\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IVYModa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IVYModa.props",
+      "PackagePath": "build\\IVYModa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IVYModa.props",
+      "PackagePath": "buildMultiTargeting\\IVYModa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IVYModa.props",
+      "PackagePath": "buildTransitive\\IVYModa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

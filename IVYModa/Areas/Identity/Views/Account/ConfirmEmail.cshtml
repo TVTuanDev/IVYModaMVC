@@ -1,0 +1,27 @@
+﻿@{
+    TempData["Title"] = "Xác nhận email";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <img src="./img/err_404.jpg" alt="Not Found" />
+        </div>
+        <div class="col-md-7 text-center">
+            <p>@ViewBag["Message"]</p>
+            <p>
+                Xin lỗi bạn, chúng tôi không thể tìm kiếm được trang web bạn yêu
+                cầu hoặc có gì đó đã sai...
+            </p>
+            <p>
+                Bạn vui lòng nhập lại tìm kiếm hoặc trở lại
+                <a href="./index.html">Trang chủ!</a>
+            </p>
+            <form action="#" class="form-error">
+                <div class="input-group">
+                    <input class="w-100" type="text" placeholder="Tìm kiếm..." />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

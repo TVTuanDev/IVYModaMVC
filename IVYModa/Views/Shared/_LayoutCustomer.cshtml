@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = TempData["Title"];
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <div class="breadcrumb" style="--bs-breadcrumb-divider: '-'">
+        <ul class="breadcrumb-list">
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" asp-controller="Home" asp-action="Index">Trang chủ</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="breadcrumb-link" asp-area="Identity" asp-controller="Manage" asp-action="Infomation">Thông tin tài khoản</a>
+            </li>
+        </ul>
+    </div>
+    <div class="my-account row">
+        <div class="col-lg-4 col-xl-3">
+            <div class="order-sitemenu block-border">
+                <div class="order-sitemenu__user">
+                    <div class="sitemenu__user-avatar">
+                        <img src="~/img/avatar-default.png" alt="" />
+                    </div>
+                    <div class="sitemenu__user-username">
+                        <p>Trần Tuấn</p>
+                    </div>
+                </div>
+                <div class="order-sitemenu__menu">
+                    <ul>
+                        <li class="@(GetActive("Manage", "Infomation"))">
+                            <a asp-area="Identity" asp-controller="Manage" asp-action="Infomation">
+                                <i class="fa-regular fa-user"></i>
+                                Thông tin tài khoản
+                            </a>
+                        </li>
+                        <li class="@(GetActive("Manage", "LoginLog"))">
+                            <a asp-area="Identity" asp-controller="Manage" asp-action="LoginLog">
+                                <i class="fa-solid fa-user-lock"></i>
+                                Lịch sử đăng nhập
+                            </a>
+                        </li>
+                        <li class="@(GetActive("Manage", "OrderList"))">
+                            <a asp-area="Identity" asp-controller="Manage" asp-action="OrderList">
+                                <i class="fa-solid fa-wallet"></i>
+                                Quản lý đơn hàng
+                            </a>
+                        </li>
+                        <li class="@(GetActive("Manage", "AddressList"))">
+                            <a asp-area="Identity" asp-controller="Manage" asp-action="AddressList">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Sổ địa chỉ
+                            </a>
+                        </li>
+                        <li class="@(GetActive("Manage", "ViewProducts"))">
+                            <a asp-area="Identity" asp-controller="Manage" asp-action="ViewProducts">
+                                <i class="fa-regular fa-eye"></i>
+                                Sản phẩm đã xem
+                            </a>
+                        </li>
+                        <li class="@(GetActive("Manage", "LikeProducts"))">
+                            <a asp-area="Identity" asp-controller="Manage" asp-action="LikeProducts">
+                                <i class="fa-regular fa-heart"></i>
+                                Sản phẩm yêu thích
+                            </a>
+                        </li>
+                        <li class="@(GetActive("Manage", "Question"))">
+                            <a asp-area="Identity" asp-controller="Manage" asp-action="Question">
+                                <i class="fa-solid fa-headphones"></i>
+                                Hỏi đáp sản phẩm
+                            </a>
+                        </li>
+                        <li class="" >
+                            <a href="#">
+                                <i class="fa-regular fa-hand-point-right"></i>
+                                Hỗ trợ -IVY
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8 col-xl-9">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+
+@RenderSection("Scripts", required: false)
+
+@functions {
+    public string GetActive(string controller, string action)
+        => ViewContext.RouteData.Values["Controller"]?.ToString() == controller
+            && ViewContext.RouteData.Values["Action"]?.ToString() == action
+            ? "active" : "";
+}

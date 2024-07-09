@@ -1,0 +1,214 @@
+﻿@model UserVM
+@{
+    TempData["Title"] = "Thông tin cá nhân";
+}
+
+<div class="user-info">
+    <div class="order-block_title">
+        <h2>TÀI KHOẢN CỦA TÔI</h2>
+    </div>
+    <div class="order-block row">
+        <p class="alert alert-primary">
+            "Vì chính sách an toàn thẻ, bạn không thể thay đổi SĐT, Ngày
+            sinh, Họ tên. Vui lòng liên hệ CSKH 0905898683 để được hỗ trợ"
+        </p>
+        <div class="col-md-7">
+            <form asp-area="Identity" asp-controller="Manage" asp-action="Infomation" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-2 alert alert-danger"></div>
+                <input asp-for="Id" type="hidden" />
+                <div class="row form-group">
+                    <div class="col col-label">
+                        <label>Họ</label>
+                    </div>
+                    <div class="col col-input">
+                        <input asp-for="FirstName" type="text"
+                               class="form-control"
+                               readonly />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-label">
+                        <label>Tên</label>
+                    </div>
+                    <div class="col col-input">
+                        <input asp-for="LastName" type="text"
+                               class="form-control"
+                               readonly />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-label">
+                        <label>Số điện thoại</label>
+                    </div>
+                    <div class="col col-input has-button">
+                        <input asp-for="PhoneNumber" type="text"
+                               class="form-control"
+                               readonly />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-label">
+                        <label>Email</label>
+                    </div>
+                    <div class="col col-input">
+                        <input asp-for="Email" type="text"
+                               class="form-control" />
+                    </div>
+                </div>
+                <div class="row form-group form-radio-checkbox">
+                    <div class="col col-label">
+                        <label>Giới tính</label>
+                    </div>
+                    <div class="col col-input">
+                        <div class="row">
+                            <div class="form-group col-12">
+                                <label class="form-radio">
+                                    <input asp-for="Gender" type="radio"
+                                           value="Male"
+                                           class="form-radio_input" />
+                                    <span class="form-radio_label">Nam</span>
+                                </label>
+                                <label class="form-radio">
+                                    <input asp-for="Gender" type="radio"
+                                           value="Female"
+                                           class="form-radio_input" />
+                                    <span class="form-radio_label">Nữ</span>
+                                </label>
+                                <label class="form-radio">
+                                    <input asp-for="Gender" type="radio"
+                                           value="Other"
+                                           class="form-radio_input" />
+                                    <span class="form-radio_label">Khác</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-label">
+                        <label>Ngày sinh</label>
+                    </div>
+                    <div class="col col-input">
+                        <input asp-for="BirthDay" type="text"
+                               class="form-control"
+                               readonly />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col col-label"></div>
+                    <div class="col col-input form-buttons d-flex align-items-center">
+                        <button class="btn btn--large">Cập nhật</button>
+                        <a href="#" class="btn btn--large btn--outline">Đổi mật khẩu</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-5">
+            <div class="card-info">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td>Điểm chiết khấu</td>
+                            <td><b>0</b></td>
+                        </tr>
+                        <tr>
+                            <td>Chiết khấu</td>
+                            <td><b>0%</b></td>
+                        </tr>
+                        <tr>
+                            <td>Hạn thẻ</td>
+                            <td><b>13/01/2025</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal-info change-password">
+        <div class="modal-bg"></div>
+        <div class="modal-inner">
+            <form class="modal-content" id="form-change_password">
+                <h3>Đổi mật khẩu</h3>
+                <div class="form-group">
+                    <label>Mật khẩu hiện tại</label>
+                    <input type="password" class="form-control" name="OldPassword" />
+                </div>
+                <div class="form-group">
+                    <label>Mật khẩu mới</label>
+                    <input type="password" class="form-control" name="NewPassword" />
+                </div>
+                <div class="form-group">
+                    <label>Nhập lại mật khẩu mới</label>
+                    <input type="password" class="form-control" name="ConfirmNewPassword" />
+                </div>
+                <div class="form-button mt-5">
+                    <button class="btn btn--large" id="btn-change__password">Cập nhật</button>
+                </div>
+                <div class="close-modal">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $("#btn-change__password").click(function (e) {
+                e.preventDefault();
+
+                var formData = $("#form-change_password").serialize();
+
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    showCloseButton: true,
+                    timer: 5000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+
+                var inputList = $("#form-change_password").find("input");
+                var validInput = 0;
+                inputList.each(function (index, item) {
+                    var value = $(item).val();
+                    if (value == "" || value.includes(" ") || /[^\x00-\x7F]/.test(value))
+                        validInput++;
+                });
+
+                if(validInput > 0) {
+                    Toast.fire({
+                        icon: `error`,
+                        text: `Mật khẩu không được để trống, không chứa dấu cách và không có tiếng việt`
+                    });
+                }
+                else {
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("ChangePassword", "Manage")",
+                        data: formData,
+                        success: function (res) {
+                            if (res.status !== "error") {
+                                $("#form-change_password").parents(".change-password").removeClass("active");
+                            }
+
+                            Toast.fire({
+                                icon: `${res.status}`,
+                                text: `${res.message}`
+                            });
+
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}
